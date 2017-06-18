@@ -1,0 +1,337 @@
+.default.container {
+    position: relative;
+    width: 400px;
+    margin: 10% auto;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid silver;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font: 16px calibri;
+    letter-spacing: -1px;
+    -webkit-box-shadow: 0 0 4px silver;
+    -moz-box-shadow: 0 0 4px silver;
+    box-shadow: 0 0 4px silver;
+}
+form {
+    margin: 0 auto;
+}
+.label {
+    display: block;
+    width: 260px;
+    padding: 10px 20px;
+    color: #696969;
+    font-size: 18px;
+    text-shadow: 0 0 1px silver;
+}
+.username, .password {
+    width: 360px;
+    margin: 0 15px;
+    padding: 10px 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.username:focus, .password:focus {
+}
+#Button1 {
+    width: 120px;
+    height: 50px;
+    margin: 20px 140px 20px;
+}
+
+.square {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color:#f0ae08;
+
+    animation-duration:15s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+
+    -webkit-animation-duration:15s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-direction: alternate;
+}
+.square.first {
+    animation-name: square1;
+    -webkit-animation-name: square1;
+}
+.square.second {
+    animation-name: square2;
+    -webkit-animation-name: square2;
+}
+.square.third {
+    animation-name: square3;
+    -webkit-animation-name: square3;
+}
+.square.fourth {
+    animation-name: square4;
+    -webkit-animation-name: square4;
+}
+.square.fifth {
+    animation-name: square5;
+    -webkit-animation-name: square5;
+}
+.square.sixth {
+    animation-name: square6;
+    -webkit-animation-name: square6;
+}
+
+.square.first.bottom {
+    animation-name: bottomsquare1;
+    -webkit-animation-name: bottomsquare1;
+}
+.square.second.bottom {
+    animation-name: bottomsquare2;
+    -webkit-animation-name: bottomsquare2;
+}
+.square.third.bottom {
+    animation-name: bottomsquare3;
+    -webkit-animation-name: bottomsquare3;
+}
+.square.fourth.bottom {
+    animation-name: bottomsquare4;
+    -webkit-animation-name: bottomsquare4;
+}
+.square.fifth.bottom {
+    animation-name: bottomsquare5;
+    -webkit-animation-name: bottomsquare5;
+}
+.square.sixth.bottom {
+    animation-name: bottomsquare6;
+    -webkit-animation-name: bottomsquare6;
+}
+
+@-webkit-keyframes square1 {
+    0%   {left:10%; top:10%;}
+    50%  {left:85%; top:10%;}
+    100% {left:10%; top:10%;}
+}
+@keyframes square1 {
+    0%   {left:10%; top:10%;}
+    50%  {left:85%; top:10%;}
+    100% {left:10%; top:10%;}
+}
+@-webkit-keyframes square2 {
+    0%   {left:11%; top:10%;}
+    50%  {left:86%; top:10%;}
+    100% {left:11%; top:10%;}
+}
+@keyframes square2 {
+    0%   {left:11%; top:10%;}
+    50%  {left:86%; top:10%;}
+    100% {left:11%; top:10%;}
+}
+@-webkit-keyframes square3 {
+    0%   {left:12%; top:10%;}
+    50%  {left:87%; top:10%;}
+    100% {left:12%; top:10%;}
+}
+@keyframes square3 {
+    0%   {left:12%; top:10%;}
+    50%  {left:87%; top:10%;}
+    100% {left:12%; top:10%;}
+}
+
+@-webkit-keyframes square4 {
+    0%   {left:13%; top:10%;}
+    50%  {left:88%; top:10%;}
+    100% {left:13%; top:10%;}
+}
+@keyframes square4 {
+    0%   {left:13%; top:10%;}
+    50%  {left:88%; top:10%;}
+    100% {left:13%; top:10%;}
+}
+@-webkit-keyframes square5 {
+    0%   {left:14%; top:10%;}
+    50%  {left:89%; top:10%;}
+    100% {left:14%; top:10%;}
+}
+@keyframes square5 {
+    0%   {left:14%; top:10%;}
+    50%  {left:89%; top:10%;}
+    100% {left:14%; top:10%;}
+}
+@-webkit-keyframes square6 {
+    0%   {left:15%; top:10%;}
+    50%  {left:90%; top:10%;}
+    100% {left:15%; top:10%;}
+}
+@keyframes square6 {
+    0%   {left:15%; top:10%;}
+    50%  {left:90%; top:10%;}
+    100% {left:15%; top:10%;}
+}
+
+
+
+@-webkit-keyframes bottomsquare1 {
+    0%   {left:10%; top:90%;}
+    50%  {left:85%; top:90%;}
+    100% {left:10%; top:90%;}
+}
+@keyframes bottomsquare1 {
+    0%   {left:10%; top:90%;}
+    50%  {left:85%; top:90%;}
+    100% {left:10%; top:90%;}
+}
+@-webkit-keyframes bottomsquare2 {
+    0%   {left:11%; top:90%;}
+    50%  {left:86%; top:90%;}
+    100% {left:11%; top:90%;}
+}
+@keyframes bottomsquare2 {
+    0%   {left:11%; top:90%;}
+    50%  {left:86%; top:90%;}
+    100% {left:11%; top:90%;}
+}
+@-webkit-keyframes bottomsquare3 {
+    0%   {left:12%; top:90%;}
+    50%  {left:87%; top:90%;}
+    100% {left:12%; top:90%;}
+}
+@keyframes bottomsquare3 {
+    0%   {left:12%; top:90%;}
+    50%  {left:87%; top:90%;}
+    100% {left:12%; top:90%;}
+}
+
+@-webkit-keyframes bottomsquare4 {
+    0%   {left:13%; top:90%;}
+    50%  {left:88%; top:90%;}
+    100% {left:13%; top:90%;}
+}
+@keyframes bottomsquare4 {
+    0%   {left:13%; top:90%;}
+    50%  {left:88%; top:90%;}
+    100% {left:13%; top:90%;}
+}
+@-webkit-keyframes bottomsquare5 {
+    0%   {left:14%; top:90%;}
+    50%  {left:89%; top:90%;}
+    100% {left:14%; top:90%;}
+}
+@keyframes bottomsquare5 {
+    0%   {left:14%; top:90%;}
+    50%  {left:89%; top:90%;}
+    100% {left:14%; top:90%;}
+}
+@-webkit-keyframes bottomsquare6 {
+    0%   {left:15%; top:90%;}
+    50%  {left:90%; top:90%;}
+    100% {left:15%; top:90%;}
+}
+@keyframes bottomsquare6 {
+    0%   {left:15%; top:90%;}
+    50%  {left:90%; top:90%;}
+    100% {left:15%; top:90%;}
+}
+
+.expanding {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+   /* background: cadetblue; */
+
+    background: rgba(212,228,239,1);
+    background: -moz-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(212,228,239,1)), color-stop(100%, rgba(134,174,204,1)));
+    background: -webkit-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+    background: -o-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+    
+    background: linear-gradient(to right, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1 );
+
+
+    -webkit-box-shadow: 2px 6px 14px gray;
+    -moz-box-shadow: 2px 6px 14px gray;
+    box-shadow: 2px 6px 14px gray;
+
+    animation-name: rotation;
+    animation-duration:8s;
+    animation-iteration-count:infinite;
+
+    -webkit-animation-name: rotation;
+    -webkit-animation-duration:8s;
+    -webkit-animation-iteration-count:infinite;
+}
+
+.expanding.first, .expanding.second {
+    top: 50px;
+}
+
+.expanding.third, .expanding.fourth {
+    bottom: 50px;
+}
+
+.expanding.first, .expanding.third {
+    left: 50px;
+}
+
+.expanding.second, .expanding.fourth {
+    right: 50px;
+}
+
+@-webkit-keyframes rotation {
+    0% { transform:rotate(0deg); }
+    50% {  transform:rotate(180deg); }
+    100% {  transform:rotate(360deg); }
+}
+
+@keyframes rotation {
+    0% { transform:rotate(0deg); }
+    50% {  transform:rotate(180deg); }
+    100% {  transform:rotate(360deg); }
+}
+
+.text {
+    position: absolute;
+    left: 8%;
+    top: 33%;
+}
+
+.letter {
+
+    text-shadow: 0 0 2px dimgrey;
+
+    animation-name: rotation;
+    animation-duration:18s;
+    animation-iteration-count:infinite;
+
+    -webkit-animation-name: rotation;
+    -webkit-animation-duration:18s;
+    -webkit-animation-iteration-count:infinite;
+}
+
+
+#Button1 {
+    background: #f0ae08;
+    background-image: -webkit-linear-gradient(top, #f0ae08, #d69524);
+    background-image: -moz-linear-gradient(top, #f0ae08, #d69524);
+    background-image: -o-linear-gradient(top, #f0ae08, #d69524);
+    background-image: linear-gradient(to bottom, #f0ae08, #d69524);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    -webkit-box-shadow: 2px 8px 8px #666666;
+    -moz-box-shadow: 2px 8px 8px #666666;
+    box-shadow: 2px 8px 8px #666666;
+    font-family: Georgia, sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 7px 10px 7px 10px;
+    text-decoration: none;
+}
+
+#Button1:hover {
+    background: #3ca8fa;
+    background-image: -webkit-linear-gradient(top, #3ca8fa, #6eb4e0);
+    background-image: -moz-linear-gradient(top, #3ca8fa, #6eb4e0);
+    background-image: -o-linear-gradient(top, #3ca8fa, #6eb4e0);
+    background-image: linear-gradient(to bottom, #3ca8fa, #6eb4e0);
+    text-decoration: none;
+}
